@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBG</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <div class="col-sm-12 d-flex justify-content-between" >
+        <div class="side-design col-sm-1">
+            <br>
+            <div class="d-flex justify-content-center">
+               <div class="row">
+                    <a href="login.html" class="btn btn-outline-light btn-lg">Logout</a>
+               </div>
+            </div>
+    
+           
+        </div>
+        <div class="col-sm-11 form-div d-flex justify-content-center" >
+            <div class="cbg-form col-sm-8">
+                <form>
+                   
+                    
+                    <div class="sect">
+                        <div class="row mb-3">
+                            <div class="col">
+                                <div class="row">
+                                    <h3>Excel Files only</h3>
+                                </div>
+                                <hr><br>
+                                <input type="file" id="excel">
+                            </div>
+                            <div class="col">
+                                <div class="row">
+                                    <h3>Zip Files only</h3>
+                                </div>
+                                <hr><br>
+                                <input type="file" id="zip">
+                            </div>
+                           
+                           
+                        </div>
+               
+                    </div>
+                   
+                    <br>
+                    <button type="clear" id="demo" class="btn btn-lg text-white" onclick="myFunction()">Upload</button>
+                </form>
+            
+            </div>
+        </div>
+    </div>
+    
+    <!-- <button type="button" onclick="myFunction()">Try it</button> -->
+
+
+
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Loading ...";
+        }
+    </script>
+
+    <style>
+        .my-card{
+        padding: 20px;
+        border: 0.4px solid black;
+        border-radius: 5px;
+        }
+        .sect{
+            padding: 40px 60px;
+            border: 1px solid black;
+            border-radius: 30px;
+            margin-bottom: 30px;
+        }
+    </style>
+</body>
+</html>
+
+
+
+<!-- 
+

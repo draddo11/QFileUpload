@@ -1,0 +1,59 @@
+body{
+
+    background-color: #F9FAFF;
+    
+    }
+    
+    
+    
+    .side-design{
+    
+    background-color: #0046AB;
+    
+    margin: 0;
+    
+    height: 100vh;
+    
+    color: #fff;
+    
+    }
+
+
+    h3{
+        color: #0046AB;
+    }
+
+    #demo{
+        background-color: #0046AB;
+        color:#fff;
+    }
+    
+    
+    
+    .cbg-form{
+    
+    border-radius: 20px;
+    
+    background-color: #ffffff;
+    
+    padding: 40px;
+    
+    }
+    
+    
+    
+    .form-div{
+    
+    padding: 80px;
+    
+    }
+    
+    
+    
+    .logo{
+    
+    padding-top: 30px;
+    
+    }
+    
+    
